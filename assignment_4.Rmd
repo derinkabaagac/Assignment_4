@@ -131,5 +131,5 @@ list(model1, model2, model3, model4) |>
 list(model1, model2, model3, model4) |>
   modelsummary(stars=T, gof_map = c("nobs", "r.squared"), title = "Regression Table", output = 'table_1.docx')
 ```
-r
+rrr
 ## The End
