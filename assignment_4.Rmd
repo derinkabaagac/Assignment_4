@@ -57,8 +57,8 @@ GrowthSW <- GrowthSW |>  mutate(treat = if_else(revolutions>0, "greater than 0",
 datasummary(factor(treat)*(growth + rgdp60) ~ Mean + Median +SD + Min + Max,data = GrowthSW)
 ```
 
-**Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
-
+**In countries that didnt have revolution the growth rate was higher based on the mean. In countries where no revolutions happened their real gdp in 1960 was higher**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
+Based 
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
